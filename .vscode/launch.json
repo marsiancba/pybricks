@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run on LEGO Spike Prime (Bluetooth)",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "pybricksdev",
+            "args": ["run", "ble", "formel.py"],
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "Run on LEGO Spike Prime (USB)",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "pybricksdev",
+            "args": ["run", "usb", "formel.py"],
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
